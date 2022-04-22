@@ -3,7 +3,6 @@ import { Args, Mutation } from '@nestjs/graphql';
 import { Model, FilterQuery } from 'mongoose';
 import { Car } from './car.schema';
 import { CreateCarInput } from './car.dto';
-import { SearchMode } from 'src/types/enums';
 
 @Injectable()
 export class CarService {

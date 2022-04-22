@@ -21,7 +21,7 @@ describe('CarService', () => {
   it('should return an array of cars', async () => {
     expect(await service.findAll()).toBeInstanceOf(Array);
   });
-
+  // filter
   it('should return an array of cars that match the filter', async () => {
     const cars = await service.findAllWithFilter({
       brand: 'BMW'
