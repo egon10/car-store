@@ -1,0 +1,42 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Car {
+  _id: String!
+  brand: String!
+  car_model: String!
+  fuel_type: String!
+  transmission: String!
+  year: Float!
+  price: Float!
+  image_url: String!
+}
+
+type Query {
+  allCars: [Car!]!
+  filteredCars(filter: CarFilterDto, limit: Float, offset: Float): [Car!]!
+}
+
+input CarFilterDto {
+  brand: String
+  car_model: String
+  fuel_type: String
+  transmission: String
+  year: Float
+  price: Float
+}
+
+type Mutation {
+  createCar(car: CreateCarInput!): Car!
+}
+
+input CreateCarInput {
+  brand: String!
+  car_model: String!
+  fuel_type: String!
+  transmission: String!
+  year: Float!
+  price: Float!
+  image_url: String!
+}

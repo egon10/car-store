@@ -8,7 +8,8 @@ export const CarSchema = new mongoose.Schema({
   fuel_type: String,
   transmission: String,
   year: Number,
-  price: Number
+  price: Number,
+  image_url: String
 });
 
 @ObjectType()
@@ -33,4 +34,7 @@ export class Car extends Document {
 
   @Field()
   price: number;
+
+  @Field()
+  image_url: string;
 }

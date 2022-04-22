@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { MONGO_DB_URL } from '../constants';
+import { MONGO_DB_URL } from '../config';
 
 export const databaseProviders = [
   {

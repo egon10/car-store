@@ -1,0 +1,171 @@
+{
+    "cars": [
+        {
+            "brand": "Mercedes-Benz",
+            "car_model": "C 63 AMG S COUPÉ",
+            "fuel_type": "Petrol",
+            "transmission": "9v, Automatic",
+            "year": "2019",
+            "price": "€142.140",
+            "image:": "https://media.autoweek.nl/m/5oxydsgb798p_600.jpg"
+        },
+        {
+            "brand": "Mercedes-Benz",
+            "car_model": "G 350 D",
+            "fuel_type": "Petrol",
+            "transmission": "9v, Automatic",
+            "year": "2019",
+            "price": "€186.720",
+            "image": "https://media.autoweek.nl/m/c4vyf6gba95a_600.jpg"
+        },
+        {
+            "brand": "BMW",
+            "car_model": "M5",
+            "fuel_type": "Petrol",
+            "transmission": "8v, Automatic",
+            "year": "2020",
+            "price": "€162.541",
+            "image":"https://media.autoweek.nl/m/8sfy5gobxzat_600.jpg"
+        },
+        {
+            "brand": "BMW",
+            "car_model": "M5 Competition",
+            "fuel_type": "Petrol",
+            "transmission": "8v, Automatic",
+            "year": "2020",
+            "price": "€175.725",
+            "image":"https://media.autoweek.nl/m/rmaymasbr03p_600.jpg"
+        },
+        {
+            "brand": "BMW",
+            "car_model": "M4 Coupé",
+            "fuel_type": "Petrol",
+            "transmission": "7v, Automatic",
+            "year": "2017",
+            "price": "€110.615",
+            "image": "https://www.turbo.fr/sites/default/files/styles/article_690x405/public/migration/newscast/field_image/000000007824397.jpg.webp?itok=uAP55wot"
+        },
+        {
+            "brand": "BMW",
+            "car_model": "M3",
+            "fuel_type": "Petrol",
+            "transmission": "7v, Automatic",
+            "year": "2012",
+            "price": "€105.235",
+            "image": "https://media.autoweek.nl/m/m1cyjh7bl019_600.jpg"
+        },
+        {
+            "brand": "BMW",
+            "car_model": "X6",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic",
+            "year": "2019",
+            "price": "100000",
+            "image": "https://media.autoweek.nl/m/m1cyjh7bl019_600.jpg"
+        },
+        {
+            "brand": "BMW",
+            "car_model": "X5",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic",
+            "year": "2019",
+            "price": "100000"
+        },
+        {
+            "brand": "Tesla",
+            "car_model": "Model S",
+            "fuel_type": "Electric",
+            "transmission": "Automatic",
+            "year": "2019",
+            "price": "100000"
+        },
+        {
+            "brand": "Tesla",
+            "car_model": "Model X",
+            "fuel_type": "Electric",
+            "transmission": "Automatic",
+            "year": "2019",
+            "price": "100000"
+        },
+        {
+            "brand": "Volkswagen",
+            "car_model": "Golf 8 GTE",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic",
+            "year": "2019",
+            "price": "100000"
+        },
+        {
+            "brand": "Porsche",
+            "car_model": "911",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic",
+            "year": "2019",
+            "price": "100000"
+        },
+        {
+            "brand": "Porsche",
+            "car_model": "Cayenne",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic",
+            "year": "2019",
+            "price": "100000"
+        },
+        {
+            "brand": "Audi",
+            "car_model": "RS3",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic",
+            "year": "2019",
+            "price": "100000"
+        },
+        {
+            "brand": "Audi",
+            "car_model": "RS6",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic",
+            "year": "2019",
+            "price": "100000"
+        },
+        {
+            "brand": "Audi",
+            "car_model": "RS7",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic",
+            "year": "2019",
+            "price": "100000"
+        },
+        {
+            "brand": "Audi",
+            "car_model": "A5",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic",
+            "year": "2019",
+            "price": "100000"
+        },
+        {
+            "brand": "Toyota",
+            "car_model": "Yaris",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic",
+            "year": "2019",
+            "price": "100000"
+        },
+        {
+            "brand": "Toyota",
+            "car_model": "Corolla",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic",
+            "year": "2019",
+            "price": "100000"
+        },
+        {
+            "brand": "Toyota",
+            "car_model": "Supra",
+            "fuel_type": "Petrol",
+            "transmission": "Automatic",
+            "year": "2019",
+            "price": "100000"
+        }            
+    ]
+}
