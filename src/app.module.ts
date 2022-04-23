@@ -1,7 +1,5 @@
 import { Module } from '@nestjs/common';
 import { GraphQLModule } from '@nestjs/graphql';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import { DatabaseModule } from './database/database.module';
 import { CarModule } from './car/car.module';
 import { CarService } from './car/car.service';
@@ -28,13 +26,6 @@ import { join } from 'path';
     DatabaseModule,
     CommandModule
   ],
-  controllers: [AppController],
-  providers: [
-    AppService,
-    CarService,
-    CarResolver,
-    ...databaseProviders,
-    ...carProviders
-  ]
+  providers: [CarService, CarResolver, ...databaseProviders, ...carProviders]
 })
 export class AppModule {}
