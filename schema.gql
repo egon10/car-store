@@ -16,6 +16,7 @@ type Car {
 type Query {
   allCars: [Car!]!
   filteredCars(filter: CarFilterDto, limit: Float, offset: Float): [Car!]!
+  searchCars(text: String!): [Car!]!
 }
 
 input CarFilterDto {

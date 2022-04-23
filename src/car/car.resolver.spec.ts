@@ -1,3 +1,4 @@
+import { ConfigModule } from '@nestjs/config';
 import { Test, TestingModule } from '@nestjs/testing';
 import { databaseProviders } from '../database/database.providers';
 import { carProviders } from './car.providers';
@@ -9,6 +10,7 @@ describe('CarResolver', () => {
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
+      imports: [ConfigModule.forRoot({ envFilePath: '.env' })],
       providers: [
         CarResolver,
         CarService,

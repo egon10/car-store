@@ -1,7 +1,7 @@
+import { Resolver, Query, Args, Mutation } from '@nestjs/graphql';
 import { CarService } from './car.service';
 import { Car } from './car.schema';
-import { Resolver, Query, Args, Mutation } from '@nestjs/graphql';
-import { CarFilterDto } from './car.dto';
+import { CarFilterDto, CreateCarInput } from './car.dto';
 
 @Resolver(() => Car)
 export class CarResolver {
@@ -22,5 +22,15 @@ export class CarResolver {
     if (limit) cars = cars.slice(offset, offset + limit);
 
     return cars;
+  }
+
+  @Mutation(() => Car)
+  async createCar(@Args('car') car: CreateCarInput): Promise<Car> {
+    return this.carService.createCar(car);
+  }
+
+  @Query(() => [Car])
+  async searchCars(@Args('text') text: string): Promise<Car[]> {
+    return this.carService.searchCars(text);
   }
 }

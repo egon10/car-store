@@ -7,3 +7,7 @@
 - Run `npm install`
 
 - Start the application with `npm start`
+
+### Unit tests
+
+- Run `npm test`
