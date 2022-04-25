@@ -28,9 +28,17 @@ export class CarService {
   }
 
   async searchCars(text: string): Promise<Car[]> {
+    const indexSearch = await this.carModel.find({ $text: { $search: text } });
+
+    if (indexSearch.length) {
+      return indexSearch;
+    }
     return this.carModel
       .find({
-        $text: { $search: text, $caseSensitive: false }
+        $or: [
+          { car_model: { $regex: `^${text}`, $options: 'i' } },
+          { brand: { $regex: `^${text}`, $options: 'i' } }
+        ]
       })
       .lean();
   }
